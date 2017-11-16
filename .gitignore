@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# my ones
+*.py[cod]
+*.log
+*_old.py
+dist
+build
+clean_build.bat
