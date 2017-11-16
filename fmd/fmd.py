@@ -539,8 +539,6 @@ def main():
                     logger.info('%s User %s MAC %s WAP %s SSID %s - timeout greater than 60 seconds', formatted_time, client_details['Username'], client_details['Client_MAC'], client_details['WAP_Name'], client_details['SSID'])
             else:
                 logger.info('%s Client with MAC %s is not associated with WLC', formatted_time, a.standard_mac())
-                # double the wait time for non associated clients 
-                time.sleep(args.frequency)
         time.sleep(args.frequency)
 
 
