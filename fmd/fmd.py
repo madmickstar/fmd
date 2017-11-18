@@ -40,7 +40,6 @@ def process_cli():
     g1.add_argument('mac',
         nargs='*',
         default=False,
-        #default=('00:11:22:33:44:55',),
         metavar=('{MAC Address xx:xx:xx:xx:xx:xx}'),
         help='Client MAC address to monitor')
     g1.add_argument('-p', '--profile',
